@@ -23,7 +23,17 @@ dependencies {
 	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+
+	// Firebase Admin SDK
+	implementation 'com.google.firebase:firebase-admin:8.0.1'
+	// Spring Boot Starter for building web, including RESTful, applications using Spring MVC.
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// Spring Boot Starter for Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
+
+
+
 
 tasks.named('test') {
 	useJUnitPlatform()
