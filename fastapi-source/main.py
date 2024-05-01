@@ -10,7 +10,7 @@ class ChatRequest(BaseModel):
 async def call_openai_gpt(prompt: str) -> str:
     url = "https://api.openai.com/v1/chat/completions"  #==
     headers = {
-        "Authorization": "Bearer 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",  # 실제 API 키로 대체
+        "Authorization": "",  # 실제 API 키로 대체
         "Content-Type": "application/json"
     }
     payload = {
